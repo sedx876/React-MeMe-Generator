@@ -1,9 +1,18 @@
 import React from 'react';
+import '../styles/header.css'
 
 
 
 function Header() {
-  return <h1>HEADER</h1>;
+  return (
+    <header>
+      <img
+        src='http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png'
+        alt='Problem?'
+      />
+      <p>Meme Generator</p>
+    </header>
+  );
 }
 
 export default Header;
